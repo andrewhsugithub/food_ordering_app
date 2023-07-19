@@ -1,0 +1,74 @@
+﻿.menu {
+  background-color: white;
+  width: 90%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-info {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  /* align-items: center; */
+}
+
+.menu-info > p:nth-child(2) {
+  font-style: italic;
+}
+
+.menu-info > p:nth-child(3) {
+  font-weight: bold;
+  color: #ad5502;
+  font-size: 1.25rem;
+}
+
+.menu-buy {
+  /* display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+  align-items: right; */
+  text-align: right;
+}
+
+.menu-amount {
+  display: flex;
+  flex-direction: row;
+  column-gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.menu-amount > label {
+  font-weight: bold;
+}
+
+.menu-amount > input {
+  width: 3rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font: inherit;
+  padding-left: 0.5rem;
+}
+
+.menu-buy > button {
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: #8a2b06;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding: 0.25rem 2rem;
+  border: 1px solid #8a2b06;
+}
